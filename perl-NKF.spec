@@ -13,7 +13,6 @@ Group:      System/Internationalization
 URL:        http://sourceforge.jp/projects/nkf
 Source0:    http://prdownloads.sourceforge.jp/nkf/20770/nkf%{ver}.tar.bz2
 BuildRequires:  perl-devel
-Buildroot:      %{_tmppath}/%{name}-%{version}
 
 %description
 This is a Perl Extension version of nkf (Netowrk Kanji Filter ) %{version}
