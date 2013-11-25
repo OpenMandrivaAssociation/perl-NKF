@@ -2,13 +2,13 @@
 %define upstream_version     207
 
 Name:       perl-%{module}
-Version:    %perl_convert_version %{upstream_version}
+Version:    %perl_convert_version 207
 Release:    1
 Summary:    Perl extension for Network Kanji Filter
 License:    BSD-like
 Group:      System/Internationalization
 URL:        http://sourceforge.jp/projects/nkf
-Source0:    http://prdownloads.sourceforge.jp/nkf/20770/nkf%{upstream_version}.tar.bz2
+Source0:    http://sourceforge.jp/projects/nkf/downloads/20770/nkf207.tar.gz
 BuildRequires:  perl-devel
 
 %description
@@ -78,4 +78,5 @@ details are specified by flags before the last argument.
 
 * Sat Feb 05 2005 Sylvie Terjan <erinmargault@mandrake.org> 1.71-7mdk
 - rebuild for new perl
+
 
