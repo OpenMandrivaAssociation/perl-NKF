@@ -9,7 +9,6 @@ License:    BSD-like
 Group:      System/Internationalization
 URL:        http://sourceforge.jp/projects/nkf
 Source0:    http://prdownloads.sourceforge.jp/nkf/20770/nkf%{upstream_version}.tar.bz2
-Patch0:	    nkf207-fPIC.patch
 BuildRequires:  perl-devel
 
 %description
@@ -19,11 +18,10 @@ details are specified by flags before the last argument.
 
 %prep
 %setup -q -n nkf%{upstream_version}/NKF.mod
-%apply_patches
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-%make  CFLAGS='%{optflags}'
+%make  CFLAGS='%{optflags} -fPIC'
 
 %install
 %makeinstall_std
