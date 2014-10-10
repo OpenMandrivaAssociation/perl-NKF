@@ -3,7 +3,7 @@
 
 Name:       perl-%{module}
 Version:    %perl_convert_version %{upstream_version}
-Release:    2
+Release:    3
 Summary:    Perl extension for Network Kanji Filter
 License:    BSD-like
 Group:      System/Internationalization
