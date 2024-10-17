@@ -7,7 +7,7 @@ Release:    4
 Summary:    Perl extension for Network Kanji Filter
 License:    BSD-like
 Group:      System/Internationalization
-URL:        http://sourceforge.jp/projects/nkf
+URL:        https://sourceforge.jp/projects/nkf
 Source0:    http://prdownloads.sourceforge.jp/nkf/20770/nkf%{upstream_version}.tar.bz2
 BuildRequires:  perl-devel
 
