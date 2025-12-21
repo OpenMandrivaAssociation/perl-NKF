@@ -9,6 +9,7 @@ License:    BSD-like
 Group:      System/Internationalization
 URL:        https://sourceforge.jp/projects/nkf
 Source0:    http://prdownloads.sourceforge.jp/nkf/20770/nkf%{upstream_version}.tar.bz2
+BuildRequires:	make
 BuildRequires:  perl-devel
 
 %description
