@@ -2,8 +2,8 @@
 %define upstream_version     207
 
 Name:       perl-%{module}
-Version:    %perl_convert_version %{upstream_version}
-Release:    4
+Version:    %{upstream_version}
+Release:    5
 Summary:    Perl extension for Network Kanji Filter
 License:    BSD-like
 Group:      System/Internationalization
